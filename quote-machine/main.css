@@ -1,0 +1,78 @@
+body {
+  font-family: "Lato", Arial, sans-serif;
+  background: #37474F;
+}
+
+.jumbotron {
+  text-align: center;
+  margin-bottom: 0;
+  background: #37474F;
+}
+
+.jumbotron h1 {
+  font-size: 5rem;
+  margin-bottom: 6rem;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .jumbotron h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.quote-wrapp {
+  background: #CFD8DC;
+  height: 15rem;
+  position: relative;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+#quote {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.2rem;
+}
+
+.btn-quote {
+  height: 60px;
+  width: 220px;
+  position: relative;
+  background: #D84315;
+}
+
+
+.btn-quote p {
+  font-size: 20px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.btn-tweet {
+  background: #55acee;
+  color: #ffffff;
+  height: 60px;
+  width: 60px;
+  margin-left: 30px;
+  border-radius: 8%;
+}
+
+.btn-tweet:hover {
+  background: #ccd6dd;
+  color: #55acee;
+}
+#author {
+  color: white;
+  margin-top: 40px;
+}

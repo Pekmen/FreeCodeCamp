@@ -1,0 +1,80 @@
+<!-- Free background images downloaded from www.pixabay.com-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FCC Weather App</title>
+
+<link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="./main.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./script.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+  <p class="text-center">(If nothing shows up turn off your add blocker extension)</p>
+  <h1>Local Weather App</h1>
+  <div class="weather-wrapper">
+    <div class="weather-info col-sm-7">
+      <table>
+        <tr>
+          <td id="city" colspan="2"></td>
+        </tr>
+        <tr>
+          <td><span id="temp"></span><sup class="units-main units"></span></td>
+            <td>
+              <button id="toggle-units">to <span id="other-units"></span></button>
+            </td>
+          </tr>
+          <tr>
+            <td><span id="weather"></span></td>
+            <td><img id="icon"></td>
+          </tr>
+          <tr>
+            <td>Humidity</td>
+            <td id="humidity"></td>
+          </tr>
+          <tr>
+            <td>Pressure</td>
+            <td id="pressure"></td>
+          </tr>
+          <tr>
+            <td>Max temp</td>
+            <td><span id="max-temp"></span><sup class="units"></sup></td>
+        </tr>
+        <tr>
+          <td>Min temp</td>
+          <td><span id="min-temp"></span><sup class="units"></sup></td>
+        </tr>
+      </table>
+    </div>
+    <div class="wind-compass col-sm-5">
+      <div>
+        <div class="wind-circle">
+
+          <div class="arrow">
+          </div>
+        </div>
+        <div class="wind-info">
+          <h4 id="wind-speed"></h4>
+          <span id="wind-units">knts</span>
+        </div>
+
+      </div>
+      <h4 class="wind-direction">
+        Wind from <span id="rose"></span>
+      </h4>
+    </div>
+  </div>
+</div>
+</body>
+</html>

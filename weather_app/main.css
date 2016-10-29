@@ -1,0 +1,136 @@
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  padding: 10px;
+  font-weight: bold;
+  color: #212121;
+  background: rgba(250, 250, 250, 0.8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.weather-wrapper {
+  padding: 20px;
+  background-color: rgba(250, 250, 250, 0.8);
+  border-radius: 10px;
+  height: 100%;
+  overflow: auto;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+table {
+  position: relative;
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+  margin: 20px auto 30px;
+}
+
+tr:first-child > td {
+  width: 200px;
+}
+
+td {
+  width: 150px;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+td:nth-child(2) {
+  text-align: right;
+}
+
+#city {
+  font-size: 18px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+
+#temp {
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 20px;
+  color: #1565C0;
+}
+
+.units {
+  font-size: 8px;
+}
+
+.units-main {
+  font-size: 23px;
+  color: #1565C0;
+}
+
+#toggle-units {
+  height: 34px;
+}
+
+#icon {
+  padding-bottom: 0px;
+}
+
+#weather {
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 20px;
+  color: #1565C0;
+}
+
+.wind-compass {
+  margin-top: 30px;
+  position: relative;
+}
+
+.wind-circle {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 15px solid #1976D2;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.arrow {
+  position: absolute;
+  left: 43%;
+  top: -26px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 45px solid #212121;
+}
+
+.wind-info {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#wind-speed {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.wind-direction {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#rose {
+  font-weight: bold;
+}

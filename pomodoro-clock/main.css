@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  font-family: "Inconsolanta";
+  background: #263238;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+
+.break,
+.session {
+  display: inline-block;
+  height: 120px;
+  width: 160px;
+}
+
+.descriptor {
+  font-size: 18px;
+}
+
+.session-length,
+.break-length {
+  margin: 5px 0 5px;
+  font-size: 30px;
+}
+
+.button {
+  font-size: 20px;
+  height: 40px;
+  width: 30px;
+  padding: 5px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.clock-wrapp {
+  height: 270px;
+  width: 270px;
+  background: #FF5722;
+  border-radius: 50%;
+  position: relative;
+  margin: 30px auto;
+}
+
+#clock {
+  background: #263238;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  box-shadow: 0 0 20px #000000;
+}
+
+.clock-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 3rem;
+}

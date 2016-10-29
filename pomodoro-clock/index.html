@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pomodoro Clock</title>
+
+<link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="./main.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="./script.js"></script>
+
+<audio>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <source src="http://www.myinstants.com/media/sounds/alarm.mp3"></source>
+</audio>
+
+</head>
+<body>
+
+<div class="container">
+  <div class="controls">
+    <div class="break">
+      <p class="descriptor">Break Length</p>
+      <button class="button" id="break-len-plus">+</button>
+      <p class="break-length">5</p>
+      <button class="button" id="break-len-minus">-</button>
+    </div>
+    <div class="session">
+      <p class="descriptor">Session Length</p>
+      <button class="button" id="sess-len-plus">+</button>
+      <p class="session-length">25</p>
+      <button class="button" id="sess-len-minus">-</button>
+    </div>
+  </div>
+  <div class="clock-wrapp">
+    <div id="clock">
+      <div class="clock-info">
+        <p id="stopwatch-type">Session</p>
+        <p id="time">25</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</body>
+</html>

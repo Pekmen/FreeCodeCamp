@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simon Game</title>
+
+<link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="./main.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="./script.js"></script>
+
+</head>
+<body>
+<div class="container">
+  <div class="simon-wrapper">
+    <div class="row-wrapper">
+      <div class="top-right green button-area clickable" id="0">
+      </div>
+      <div class="top-left red button-area clickable" id="1">
+      </div>
+    </div>
+    <div class="row-wrapper">
+      <div class="bottom-right yellow button-area clickable" id="2">
+      </div>
+      <div class="bottom-left blue button-area clickable" id="3">
+      </div>
+    </div>
+    <div class="interface center">
+      <h1 class="logo">Simon</h1>
+      <div class="controls">
+        <div class="display">
+          <p class="center non-led">--</p>
+        </div>
+        <div class="buttons-wrapper">
+          <button class="start red"></button>
+          <button class="strict yellow"></button>
+          <div class="strict-led">
+          </div>
+        </div>
+      </div>
+      <div class="labels">
+        <p class="bold">COUNT</p>
+        <p class="bold">START</p>
+        <p class="bold">STRICT</p>
+      </div>
+      <div class="switcher-wrapp">
+        <p class="bold">OFF</p>
+        <div class="switcher">
+          <div class="switch blue" id="power">
+          </div>
+        </div>
+        <p class="bold">ON</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>  

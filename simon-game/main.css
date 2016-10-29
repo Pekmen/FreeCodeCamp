@@ -1,0 +1,222 @@
+body {
+  text-align: center;
+  background: #FFE0B2;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.simon-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 40px auto 0px;
+  text-align: center;
+}
+
+.top-right {
+  border-top-left-radius: 100%;
+}
+
+.top-left {
+  border-top-right-radius: 100%;
+}
+
+.bottom-right {
+  border-bottom-left-radius: 100%;
+}
+
+.bottom-left {
+  border-bottom-right-radius: 100%;
+}
+
+.green {
+  background-color: #00C853;
+}
+
+.red {
+  background-color: #F44336;
+}
+
+.yellow {
+  background-color: #FFFF00;
+}
+
+.blue {
+  background-color: #2196F3;
+}
+
+.row-wrapper {
+  width: 100%;
+  margin: -3px;
+}
+
+.button-area {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  border: 15px solid #212121;
+  margin: -4px;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+  cursor: pointer;
+  ca
+}
+
+.clickable {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.unclickable {
+  pointer-events: none;
+}
+
+.interface {
+  height: 250px;
+  width: 250px;
+  background-color: #F5F5F5;
+  border-radius: 50%;
+  border: 15px solid#212121;
+  text-align: center;
+}
+
+.buttons-wrapper {
+  position: relative;
+  float: right;
+  margin-right: 26px;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  margin: 20px 5px;
+  border: 5px solid #212121;
+  border-radius: 50%;
+}
+
+button:focus {
+  outline-style: none;
+}
+
+.display {
+  width: 70px;
+  height: 50px;
+  background: #32050C;
+  float: left;
+  margin-left: 26px;
+  border: 5px solid #212121;
+  border-radius: 10%;
+  position: relative;
+}
+
+.display p {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+
+.led {
+  color: #DC0D29;
+}
+
+.non-led {
+  color: #430710;
+}
+
+.strict-led {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  border-radius: 50%;
+}
+
+.lit {
+  background: red;
+}
+
+.labels {
+  clear: right;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.labels p {
+  position: absolute;
+  font-size: 10px;
+  display: inline;
+  top: -10px;
+}
+
+.labels p:nth-child(1) {
+  left: 45px;
+}
+
+.labels p:nth-child(2) {
+  left: 144px;
+}
+
+.labels p:nth-child(3) {
+  left: 186px;
+}
+
+.switcher-wrapp {
+  margin-top: 30px;
+}
+
+.switcher-wrapp p {
+  display: inline-block;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.switcher {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background: #222222;
+  color: red;
+  margin: -5px auto;
+}
+
+.switch {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border: 3px solid #424242;
+}
+
+.on {
+  top: 0;
+  right: 0;
+}
+
+.flash {
+  background: #FFF59D;
+}
+
+
+/* TODO
+   responsitivity
+*/
+
+
+/* Utility */
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bold {
+  font-weight: bold;
+}

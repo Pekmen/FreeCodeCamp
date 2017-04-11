@@ -1,5 +1,5 @@
 # Tic Tac Toe
 
-Tic Tac Toe FreeCodeCamp Front End certificate with unbeatable AI
+Tic Tac Toe app with unbeatable AI
 
 http://codepen.io/Pekmen/full/EPdovV

@@ -1,5 +1,5 @@
-Quote Machine
+# Quote Machine
 
-Quote app for FreeCodeCamp Front End certificate
+Quote app that allows user to post quotes on Twitter
 
 http://codepen.io/Pekmen/full/meGPZa

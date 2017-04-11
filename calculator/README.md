@@ -1,6 +1,5 @@
 # Calculator
 
-Calculator app for FreeCodeCamp Front End certificate
-Some of the projects for FreeCodeCamp Front End Certificate
+Realistic looking calculator app
 
 http://codepen.io/Pekmen/full/GpLePm/

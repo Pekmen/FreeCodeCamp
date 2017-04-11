@@ -1,4 +1,4 @@
-Tic Tac Toe
+# Tic Tac Toe
 
 Tic Tac Toe FreeCodeCamp Front End certificate with unbeatable AI
 
